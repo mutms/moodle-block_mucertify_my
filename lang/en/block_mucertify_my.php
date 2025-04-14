@@ -17,7 +17,7 @@
 // phpcs:disable moodle.Files.BoilerplateComment.CommentEndedTooSoon
 
 /**
- * Capabilities for My certifications block.
+ * My certifications block.
  *
  * @package     block_mucertify_my
  * @copyright   2023 Open LMS (https://www.openlms.net/)
@@ -28,26 +28,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$capabilities = [
-
-    'block/mucertify_my:myaddinstance' => [
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_SYSTEM,
-        'archetypes' => [
-            'user' => CAP_ALLOW,
-        ],
-
-        'clonepermissionsfrom' => 'moodle/my:manageblocks',
-    ],
-
-    'block/mucertify_my:addinstance' => [
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => [
-            'manager' => CAP_ALLOW,
-        ],
-
-        'clonepermissionsfrom' => 'moodle/site:manageblocks',
-    ],
-
-];
+$string['mucertify_my:addinstance'] = 'Add a new My certifications block to Dashboard';
+$string['mucertify_my:myaddinstance'] = 'Add a new My certifications block to Dashboard';
+$string['pluginname'] = 'My certifications';
+$string['privacy:metadata'] = 'My certifications block does not store data itself.';
