@@ -26,7 +26,11 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class block_mucertify_my extends block_base {
-    #[\Override]
+    /**
+     * Block init.
+     *
+     * @return void
+     */
     public function init() {
         $this->title = get_string('pluginname', 'block_mucertify_my');
     }
