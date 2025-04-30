@@ -1,4 +1,4 @@
-@block @block_mucertify_my @tool_mucertify @muTMS
+@block @block_mucertify_my @tool_mucertify @MuTMS
 Feature: My certifications block
 
   @javascript
