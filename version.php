@@ -31,7 +31,7 @@ defined('MOODLE_INTERNAL') || die();
 /** @var stdClass $plugin */
 $plugin->component = 'block_mucertify_my';
 $plugin->version = 2025063045;
-$plugin->requires = 2024091700;
+$plugin->requires = 2024100700;
 $plugin->maturity = MATURITY_ALPHA;
 $plugin->supported = [405, 405];
 $plugin->incompatible = 500;
