@@ -38,5 +38,5 @@ $plugin->supported = [500, 501];
 $plugin->release = 'mu-5.0.4-02+';
 
 $plugin->dependencies = [
-    'tool_mucertify' => 2025121650,
+    'tool_mulib' => 2025121650.02,
 ];
