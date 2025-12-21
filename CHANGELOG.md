@@ -9,3 +9,4 @@ The format of this change log follows the advice given at [Keep a CHANGELOG](htt
 ### Changed
 
 - Switched to new change log format
+- Reversed plugin dependency to simplify Certifications installation and upgrades
