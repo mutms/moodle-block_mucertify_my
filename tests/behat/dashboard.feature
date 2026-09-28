@@ -19,14 +19,14 @@ Feature: My certifications block
     And I follow "Certification 001"
     And I click on "Assignment settings" "link" in the ".secondary-navigation" "css_element"
     And I click on "Update Manual assignment" "link"
-    And I set the following fields to these values:
-      | Active | Yes |
-    And I click on "Update" "button" in the ".modal-dialog" "css_element"
+    And I set the following muform fields in the "dialog[open]" "css_element":
+      | enable | 1 |
+    And I click on "Update" "button" in the "dialog[open]" "css_element"
     And I click on "Users" "link" in the ".secondary-navigation" "css_element"
     And I press "Assign users"
-    And I set the following fields to these values:
+    And I set the following muform fields in the "dialog[open]" "css_element":
       | Users | Student 1 |
-    And I click on "Assign users" "button" in the ".modal-dialog" "css_element"
+    And I click on "Assign users" "button" in the "dialog[open]" "css_element"
     And I log out
 
     And I log in as "student1"
