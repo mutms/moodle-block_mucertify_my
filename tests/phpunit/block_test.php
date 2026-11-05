@@ -18,14 +18,18 @@
 
 namespace block_mucertify_my\phpunit;
 
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Group;
+
 /**
  * My certifications overview block tests.
  *
- * @group       MuTMS
  * @package     block_mucertify_my
  * @copyright   2025 Petr Skoda
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+#[CoversClass(\block_mucertify_my::class)]
+#[Group('MuTMS')]
 final class block_test extends \advanced_testcase {
     public static function setUpBeforeClass(): void {
         require_once(__DIR__ . '/../../../moodleblock.class.php');
@@ -35,8 +39,6 @@ final class block_test extends \advanced_testcase {
 
     /**
      * Test the behaviour of can_block_be_added() method.
-     *
-     * @covers ::can_block_be_added
      */
     public function test_can_block_be_added(): void {
         $this->resetAfterTest();
