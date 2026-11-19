@@ -7,7 +7,7 @@
 #   description: |
 #     What the plugin does, and who it is for.
 name: My certifications
-summary: Block required by the Certifications plugin — fully open source under GPL 3.0. Part of the MuTMS suite.
+summary: Optional block for the Certifications plugin — fully open source under GPL 3.0. Part of the MuTMS suite.
 # Disclosure labels — all that apply:
 #   fully-free | freemium | paid-service | external-account
 #   donation-supported | commercial-support-available

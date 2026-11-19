@@ -9,3 +9,7 @@ The format of this change log follows the advice given at [Keep a CHANGELOG](htt
 ### Added
 
 - Czech translation and AI-produced previews of German, French, Italian, Portuguese and Spanish translations
+
+### Changed
+
+- Certifications plugin is required, the block is not required by the Certifications plugin any more

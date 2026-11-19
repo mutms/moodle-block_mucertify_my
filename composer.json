@@ -7,7 +7,8 @@
   "require": {
     "moodle/composer-installer": "*",
     "moodle/moodle": "5.3.*",
-    "mutms/moodle-tool_mulib": "*"
+    "mutms/moodle-tool_mulib": "*",
+    "mutms/moodle-tool_mucertify": "*"
   },
   "support": {
     "issues": "https://github.com/mutms/moodle-block_mucertify_my/issues",
